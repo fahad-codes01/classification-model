@@ -52,38 +52,35 @@ bash
    
 ```
 
-2. **Create a virtual environment**
-   
-```
-Mac / Linux
-```
-bash
-   python -m venv venv
-   source venv/bin/activate  
-```
-Windows
-```
-bash
-   python -m venv venv
-   venv\Scripts\activate
+## 2. **Create a virtual environment**
+
+### Mac / Linux
+
+```bash
+python -m venv venv
+source venv/bin/activate
 ```
 
-3. **Install dependencies**
-   
-```
-bash
-   pip install -r requirements.txt
-   
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
-4. **Open and run notebooks**
-   - Navigate to `notebooks/` directory
-   - Open Jupyter notebooks with JupyterLab or Jupyter Notebook
-   
+## 3. **Install dependencies**
+
+```bash
+pip install -r requirements.txt
 ```
-bash
-   jupyter lab
-   
+
+## 4. **Open and run notebooks**
+
+- Navigate to `notebooks/` directory
+- Open Jupyter notebooks with JupyterLab or Jupyter Notebook
+
+```bash
+jupyter lab
 ```
 
 ## Models Implemented
@@ -101,9 +98,9 @@ bash
 ## Results Summary
 
 | Dataset | Model | Accuracy |
-|---------|-------|----------|
-| Titanic | KNN | ~80-85% |
-| Breast Cancer | KNN | ~90-95% |
+|----------|--------|-----------|
+| Titanic | KNN | ~80–85% |
+| Breast Cancer | KNN | ~90–95% |
 | Pizza Reviews | Decision Tree | Variable |
 | Burger King Reviews | Decision Tree | Variable |
 
@@ -119,7 +116,7 @@ bash
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License — see the `LICENSE` file for details.
 
 ## Acknowledgments
 
