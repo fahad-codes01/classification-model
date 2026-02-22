@@ -44,20 +44,28 @@ Classification model/
 ## How to Run
 
 1. **Clone the repository**
-   
+
 ```
 bash
-   git clone <repository-url>
+   git clone https://github.com/fahad-codes01/classification-model.git
+   cd classification-model
    
 ```
 
 2. **Create a virtual environment**
    
 ```
+Mac / Linux
+```
 bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   
+   source venv/bin/activate  
+```
+Windows
+```
+bash
+   python -m venv venv
+   venv\Scripts\activate
 ```
 
 3. **Install dependencies**
